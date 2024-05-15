@@ -1,4 +1,4 @@
-package com.ftorrigo.myrecipeapp
+package com.ftorrigo.myrecipeapp.ui.activities
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
