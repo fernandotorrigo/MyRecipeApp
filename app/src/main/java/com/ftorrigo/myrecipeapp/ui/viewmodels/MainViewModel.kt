@@ -40,5 +40,4 @@ class MainViewModel : ViewModel() {
         val list: List<Category> = emptyList(),
         val error: String? = null
     )
-
 }
