@@ -8,6 +8,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.ftorrigo.myrecipeapp.ui.components.CategorySection
 import com.ftorrigo.myrecipeapp.ui.viewmodels.MainViewModel
 
 @Composable
@@ -26,7 +27,7 @@ fun RecipeScreen() {
             }
 
             else -> {
-                CategoryScreen(categories = viewState.list)
+                CategorySection(categories = viewState.list)
             }
         }
     }
